@@ -225,59 +225,59 @@ public struct CurvatureMapJob : IJobParallelForBatch
 public enum CurvatureType
 {
     /// <summary>
-    /// 计划
+    /// 平面曲率
     /// </summary>
     PLAN,
     /// <summary>
-    /// 水平
+    /// 水平曲率
     /// </summary>
     HORIZONTAL,
     /// <summary>
-    /// 垂直
+    /// 垂直曲率
     /// </summary>
     VERTICAL,
     /// <summary>
-    /// 平均
+    /// 平均曲率
     /// </summary>
     MEAN,
     /// <summary>
-    /// 高斯
+    /// 高斯曲率
     /// </summary>
     GAUSSIAN,
     /// <summary>
-    /// 最小
+    /// 最小曲率
     /// </summary>
     MINIMAL,
     /// <summary>
-    /// 最大
+    /// 最大曲率
     /// </summary>
     MAXIMAL,
     /// <summary>
-    /// 非球面性
+    /// 非球面曲率
     /// </summary>
     UNSPHERICITY,
     /// <summary>
-    /// 转子
+    /// 转子曲率
     /// </summary>
     ROTOR,
     /// <summary>
-    /// 差分
+    /// 差异曲率
     /// </summary>
     DIFFERENCE,
     /// <summary>
-    /// 水平超出
+    /// 水平超曲率
     /// </summary>
     HORIZONTAL_EXCESS,
     /// <summary>
-    /// 垂直超出
+    /// 垂直超曲率
     /// </summary>
     VERTICAL_EXCESS,
     /// <summary>
-    /// 环
+    /// 环曲率
     /// </summary>
     RING,
     /// <summary>
-    /// 累积
+    /// 累积曲率
     /// </summary>
     ACCUMULATION
 }
